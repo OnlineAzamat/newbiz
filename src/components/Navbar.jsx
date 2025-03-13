@@ -1,18 +1,17 @@
 const Navbar = () => {
   return (
-    <nav>
-      <div className="logo">
-        <img src="/images/logo.png" alt="img_logo" />
+    <nav className="flex justify-between items-center px-[10%]">
+      <div className="logo h-[75%]">
+        <img className="h-full" src="/images/logo.png" alt="img_logo" />
       </div>
-      <div className="navbar">
-        <span><a href="#" id="home">Home</a></span>
-        <span><a href="#">About Us</a></span>
-        <span><a href="#">Services</a></span>
-        <span><a href="#">Portfolio</a></span>
-        <span><a href="#">Team</a></span>
-        <span><a href="#">Drop Down <i className="fa-solid fa-chevron-down"></i></a></span>
-        <span><a href="#">Contact Us</a></span>
-      </div> 
+      <ul className="nav-links flex gap-8 font-medium max-md:hidden">
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#" id="home">Home</a></li>
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#">About Us</a></li>
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#">Services</a></li>
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#">Portfolio</a></li>
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#">Team</a></li>
+        <li><a className="text-[#05468B] transition-all hover:text-[#007BFF]" href="#">Contact Us</a></li>
+      </ul>
     </nav>
   )
 }
