@@ -4,7 +4,7 @@ const About = () => {
       <p className="text-center text-4xl">About Us</p>
       <p className="text-center mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore est <br />et in vero soluta nesciunt vitae impedit quas voluptatibus.</p>
 
-      <div className="flex px-[10%] py-[6rem] gap-4">
+      <div className="flex px-[10%] py-[6rem] gap-4 max-md:flex-wrap">
         <div className="flex flex-col gap-8 w-1/2">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, asperiores temporibus neque nisi laboriosam cum voluptates, iure quasi alias praesentium harum nesciunt autem consequatur officiis quos placeat, deleniti accusamus voluptatem. Labore beatae quasi ut dolorum dignissimos voluptatibus quo reiciendis accusamus consequatur est sunt nihil blanditiis cum, sint illo, ex nisi?</p>
           <div className="flex gap-6">

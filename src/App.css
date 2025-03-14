@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,7 +20,7 @@ nav {
 }
 
 #home {
-    color:#6FC2F2;
+    color: #6FC2F2;
 }
 
 .head {
@@ -43,6 +44,12 @@ nav {
     box-shadow: inset 3px 3px 7px #adadad3b;
 }
 
+.mobile-menu:hover~ul {
+    right: 0;
+}
+
+/* -------> old */
+
 .services table {
     width: calc(100% - 500px);
     margin: 50px auto 0px auto;
@@ -62,6 +69,7 @@ footer {
     background-color: #004A99;
     color: white;
 }
+
 .uppercase {
     text-transform: uppercase;
     font-weight: bold;
