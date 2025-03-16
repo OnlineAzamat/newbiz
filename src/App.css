@@ -70,67 +70,7 @@ footer {
     color: white;
 }
 
-.uppercase {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.border {
-    background-color: #007BFF;
-    border-radius: 50%;
-    padding: 12px;
-    width: 40px;
-    transition: 0.2s;
-}
-
-.border:hover {
-    background-color: rgba(0, 123, 255, 0.8);
-    cursor: pointer;
-}
-
-.text {
-    height: 35px;
-    width: 200px;
-}
-
-table button {
-    width: 100px;
-    height: 35px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    margin-left: -5px;
-    transition: 0.2s;
-}
-
-table button:hover {
-    background-color: rgba(0, 123, 255, 0.8);
-    cursor: pointer;
-}
-
 .text_dec {
     text-decoration: none;
     color: #6FC2F2;
-}
-
-.up {
-    border-radius: 50%;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    padding: 10px 0 0 12px;
-    float: right;
-    transform: translateY(-45px);
-    background-color: #007BFF;
-    display: block;
-    transition: 0.2s;
-}
-
-.up:hover {
-    background-color: rgba(0, 123, 255, 0.8);
-}
-
-.why {
-    margin-top: 20px;
 }
